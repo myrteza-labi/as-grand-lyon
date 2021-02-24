@@ -3,39 +3,47 @@ body{
     padding: 0;
 }
 .sidebar {
-    width: 50px; 
+    width: 70px; 
     border-right: 1px solid #ccc; 
     display: flex; 
     flex-direction: column; 
     justify-items: flex-start;
 }
 .tag-menu{
-    background-color: #83389D;
+    background-color: #803688;
     width: 100%; 
-    min-height: 100px; 
+    height: 85px; 
     display:flex;
     align-items: center;  
     justify-content: center; 
 }
 
 .tag-image{
-    width: 20px; 
-    margin-left: 8px; 
+    margin:auto; 
+    width:80%; 
+}
+
+.tag-image-home{
+    padding-top: 0px; 
 }
 .tag {
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    width:100%; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+}
+.first-tag {
+    padding-top: 10px ;
 }
 
 .tag-image-menu {
-    width: 15px; 
-    background-color: #83389D;
-    padding: 10px; 
+    width: 60%; 
+    background-color: #803688;
+    padding: 0px; 
     margin: auto; 
 }
 
 .as-logo {
-    width: 100px; 
+    width: 135px; 
 }
 header {
     /*width: 100%; */
@@ -55,8 +63,8 @@ header {
     letter-spacing: 1px; 
     font-family: sans-serif; 
     font-weight: 1000; 
-    font-size: 12px; 
-    border-bottom: 1px solid #999; 
+    font-size: 8px; 
+    border-bottom: 1px solid #eee; 
 
 }
 .text-under-logo {
@@ -68,8 +76,8 @@ header {
 }
 
 .image-courtier {
-    width: 60px; 
-    height: 60px; 
+    width: 40px; 
+    height: 40px; 
 }
 
 .courtier-text-box{
@@ -91,7 +99,7 @@ header {
     height: 56px;  ; 
     width: 56px; 
     background-color: #fff; 
-    border: 1px solid #AD78C2; 
+    border: 1px solid #80368B; 
     border-radius: 2px; 
     margin: 1px; 
 }
@@ -100,8 +108,8 @@ header {
     font-size: 8px; 
     padding: 8px 0px 8px 0px; 
     background-color: #fff; 
-    border: 1px solid #AD78C2; 
-    border-radius: 2px; 
+    border: 1px solid #80368B; 
+    border-radius: 3px; 
     width: 140px; 
     margin: 1px; 
     
@@ -146,14 +154,15 @@ header {
 
 .filter-section-title{
     font-family: sans-serif; 
-    font-size: 20px; 
-    font-style: italic; 
+    font-size: 16px; 
+    font-style: italic;
+    color:  #333; 
 }
 
 .filter-container-title {
-    background-color: #83389D;
+    background-color: #803688;
     color: #fff; 
-    font-family: sans-serif; 
+    font-family: arial; 
     font-size: 10px; 
     font-style: italic; 
     margin-top: 0; 
@@ -162,11 +171,13 @@ header {
 
 .filter-title {
     padding: 5px; 
+    margin:0px; 
 }
 
 .filter-section-2 {
-    border: solid #83389D 1px; 
+    border: solid #803688 1px; 
     margin-top: 0; 
+    border-radius: 2px; 
 
 }
 
@@ -276,8 +287,8 @@ header {
 }
 
 .file-btn-image {
-    width:20px;
-    height:20px; 
+    width:30px;
+    height:30px; 
 }
 
 .header-sidebar-container{
